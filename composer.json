@@ -1,0 +1,20 @@
+{
+    "name": "dtabirca/runrace",
+    "description": "Manages running competitions",
+    "type": "drupal-custom-module",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Daniel Tabirca",
+            "email": "dtabirca@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/dtabirca/D9-Race-Module"
+        }
+    ],    
+    "require": {}
+}

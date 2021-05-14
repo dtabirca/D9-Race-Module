@@ -1,0 +1,19 @@
+runrace.admin_menu:
+  title: 'Course Options'
+  route_name: runrace.admin
+  base_route: runrace.admin
+
+runrace.admin_menu_tabb:
+  title: 'Registered competitors'
+  route_name: runrace.admin_tabb
+  base_route: runrace.admin
+
+runrace.admin_menu_tabc:
+  title: 'Results/Certificates'
+  route_name: runrace.admin_tabc
+  base_route: runrace.admin
+
+runrace.admin_menu_tabd:
+  title: 'Data Import/Export'
+  route_name: runrace.admin_tabd
+  base_route: runrace.admin

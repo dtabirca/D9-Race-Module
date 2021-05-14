@@ -1,0 +1,6 @@
+runrace.admin:
+  title: 'Runrace module settings'
+  description: 'Runrace module settings'
+  parent: system.admin
+  route_name: runrace.admin
+  weight: 100

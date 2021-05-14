@@ -1,0 +1,39 @@
+runrace.admin:
+  path: '/admin/runrace'
+  defaults:
+    _controller: '\Drupal\runrace\Controller\RunraceController::raceOptions'
+    _title: 'Runrace module settings'
+  requirements:
+    _permission: 'access content'
+
+runrace.admin_taba:
+  path: '/admin/runrace/race-options'
+  defaults:
+    _controller: '\Drupal\runrace\Controller\RunraceController::raceOptions'
+    _title: 'Runrace module settings'
+  requirements:
+    _permission: 'access content'
+
+runrace.admin_tabb:
+  path: '/admin/runrace/registered-competitors'
+  defaults:
+    _controller: '\Drupal\runrace\Controller\RunraceController::registeredCompetitors'
+    _title: 'Runrace - registered competitors'
+  requirements:
+    _permission: 'access content'
+
+runrace.admin_tabc:
+  path: '/admin/runrace/results-certificates'
+  defaults:
+    _controller: '\Drupal\runrace\Controller\RunraceController::resultsCertificates'
+    _title: 'Runrace - results & certificates'
+  requirements:
+    _permission: 'access content'
+
+runrace.admin_tabd:
+  path: '/admin/runrace/import-export'
+  defaults:
+    _controller: '\Drupal\runrace\Controller\RunraceController::dataImportExport'
+    _title: 'Runrace - data import/export'
+  requirements:
+    _permission: 'access content'
